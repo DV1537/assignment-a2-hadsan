@@ -47,7 +47,7 @@ std::string Polygon::getType()
 {
     return "Polygon";
 }
-// Find link and reference it
+// Link: https://stackoverflow.com/questions/29821126/trouble-calculating-perimeter-of-a-polygon-from-reading-x-y-coordinate-input-in
 double Polygon::circumference(){
     double circumference = 0,dx,dy;
     for (int i = 0; i < this->pointNum; ++i)
